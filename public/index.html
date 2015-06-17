@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bike</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+	<body>
+		
+		<div class="container">
+
+			<div class="input-sec">
+				<h2>Should I Bike In? No Frills Weather</h2>
+				<input type="text" class="zip-input" placeholder="zip code">
+				<button type="button" class="search">Weather Bruh</button>
+			</div>
+
+			<div class="display-sec">
+				<p class="city-section">This is your city: <span class="city-val"></span></p>
+				<p class="desc-section">Currently: <span class="desc-val"></span></p>
+				<p class="temp-section">Current temp is: <span class="temp-val"></span></p>
+				<p class="wind-section">Wind speed: <span class="wind-val"></span> mi.</p>
+				<p class="humidity-section">Humidity is: <span class="humidity-val"></span></p>
+				<h3 class="bike-msg"></h3>
+			</div>
+
+
+		</div>
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="script/weatherAPI.js"></script>
+		<script src="script/main.js"></script>
+	</body>
+</html>

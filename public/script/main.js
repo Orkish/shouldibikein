@@ -43,6 +43,10 @@
 
 		if( tempFinal > 55 && tempFinal < 85 ) {
 			bikeMsg.html( 'Perfect Biking Weather, Bruhh' );
+		} else if( tempFinal < 55 ) {
+			bikeMsg.html( 'Shits too cold, Mang' );
+		} else {
+			bikeMsg.html( 'Too... Freaking... Hot...' );
 		}
 	}
 
